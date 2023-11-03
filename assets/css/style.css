@@ -1,0 +1,93 @@
+.container {
+  width: 430px;
+  min-height: 360px;
+  margin: 80px auto;
+  border: 0.2px solid #cecece;
+  border-radius: 10px;
+  padding: 22px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-top: 42px solid #ffdc40;
+  > h1 {
+    text-align: center;
+  }
+  .sort {
+    margin-left: 340px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .adding {
+    margin: 0 auto;
+    width: 99%;
+    height: 40px;
+    border-radius: 4px;
+    border: 0.2px solid #cecece;
+  }
+  .delete {
+    position: relative;
+    top: -32px;
+    left: 320px;
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+  }
+  .btn {
+    color: white;
+    font-size: 20px;
+    margin: 14px 0 14px 98px;
+    width: 182px;
+
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 0.2px solid #cecece;
+    background-color: #833ae0;
+  }
+  .btn:hover {
+    background-color: #9169c6;
+    
+  }
+  .plus {
+    position: absolute;
+    bottom: 43px;
+    left: 130px;
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+    background-color: #9953f1;
+  }
+  .todo-list {
+    bottom: 80px;
+  }
+}
+ol {
+  list-style-position: inside;
+}
+.todo-list {
+
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list-item {
+  border: 1px solid #cecece;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 10px;
+  position: relative;
+  overflow-wrap: break-word;
+  
+}
+
+.delete-button {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+ 
+}
+
+
+

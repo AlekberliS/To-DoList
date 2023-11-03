@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>To-Do List</h1>
+      <img src="assets/images/Group 38.svg" alt="sorter" class="sort" />
+      <div class="toDo">
+        <input type="text" name="task" class="adding" placeholder="Write, your todos..." style="padding: 10px; font-family:'Roboto Mono', monospace;"/>
+        <img src="./assets/images/Group 56.svg" alt="delete" class="delete" />
+
+        <ol class="todo-list"></ol>
+        <div class="button-container">
+          <button class="btn">Send</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
